@@ -4,7 +4,8 @@
 // @description         Download videos from youtube.com with one click.
 // @author              Prince527
 // @match               https://www.youtube.com/*
-// @downloadURL         
+// @downloadURL         https://github.com/Prince527GitHub/Simple-Projects/raw/youtube-downloader-userscript/youtube-downloader-script.user.js
+// @homepageURL         https://github.com/Prince527GitHub/Simple-Projects/tree/youtube-downloader-userscript
 // ==/UserScript==
 
 (function() {
