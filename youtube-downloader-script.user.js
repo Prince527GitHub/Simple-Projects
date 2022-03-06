@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                Youtube Downloader Script
-// @version             2.0.0
+// @version             2.0.1
 // @description         Download videos from youtube.com with one click.
 // @author              Prince527
 // @match               https://www.youtube.com/*
@@ -27,7 +27,7 @@
     div.style.fontSize = "20px";
     div.style.cursor = "pointer";
     div.style.zIndex = "9999";
-    div.innerHTML = `<div class='dropdown-custom'><button class='dropbtn-custom' style="height:10px;width:10px;"></button><div class='dropdown-content-custom'><a href="${'http://9xbuddy.com/download?url=' + document.URL}">9xBuddy</a> <a href="https://www.y2mate.com/youtube/${document.URL.split('v=')[1]}">y2mate2</a> <a href="https://ytmp3x.com/${document.URL.split('v=')[1]}">YTMP3X</a> <a href="https://yt1s.com/en?q=${document.URL}">YT1s</a></div></div>`;
+    div.innerHTML = `<div class='dropdown-custom'><button class='dropbtn-custom' style="height:10px;width:10px;"></button><div class='dropdown-content-custom'><a href="${'http://9xbuddy.com/download?url=' + document.URL}">9xBuddy</a> <a href="https://www.y2mate.com/youtube/${document.URL.split('v=')[1]}">y2mate2</a> <a href="https://ytmp3x.com/${document.URL.split('?v=')[1].split("?v=")[1].split("&list")[0]}">YTMP3X</a> <a href="https://yt1s.com/en?q=${document.URL}">YT1s</a></div></div>`;
 
     // append the new div element to the body
     document.body.appendChild(div);
