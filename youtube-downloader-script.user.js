@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                Youtube Downloader Script
-// @version             2.0.3
+// @version             2.1.0
 // @description         Download videos from youtube.com with one click.
 // @author              Prince527
 // @match               https://www.youtube.com/*
