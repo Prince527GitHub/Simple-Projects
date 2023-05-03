@@ -2,12 +2,12 @@
 
 Addon for queueing videos to [MeTube](https://github.com/alexta69/metube) instance.
 
-![example](./assets/scr_context_menu.png)
-![example](./assets/scr_button.png)
+![example](./assets/context_menu.png)
+![example](./assets/button.png)
 
 ## Installation from zip
 
-![install]()
+![install](./assets/install.png)
 
 ## Usage
 
