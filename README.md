@@ -1,3 +1,5 @@
+### This is a fork of [nanocortex/metube-firefox-addon](https://github.com/nanocortex/metube-firefox-addon) with support for alternative front-ends like Piped and Invidious
+
 # Firefox MeTube addon
 
 Addon for queueing videos to [MeTube](https://github.com/alexta69/metube) instance.
